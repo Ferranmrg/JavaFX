@@ -108,7 +108,13 @@ public class RootLayoutController {
             .message("Author: Marco Jakob\nWebsite: http://code.makery.ch")
             .showInformation();
     }
-
+    /**
+     * Opens the birthday statistics.
+     */
+    @FXML
+    private void handleShowBirthdayStatistics() {
+      mainApp.showBirthdayStatistics();
+    }
     /**
      * Closes the application.
      */
