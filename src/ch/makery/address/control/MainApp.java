@@ -26,7 +26,13 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
+/**
+ * <b><h1>One class to rule them all</h1></b>
+ * @version 1.0
+ * @author ferran
+ * @see Other
+ * 
+ */
 public class MainApp extends Application {
 
     private Stage primaryStage;
