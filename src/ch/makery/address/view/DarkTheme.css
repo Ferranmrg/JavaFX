@@ -1,26 +1,33 @@
 .background {
-    -fx-background-color: #1d1d1d;
+    -fx-background-image: url("fondo.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover; 
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
 }
 
 .label {
-    -fx-font-size: 11pt;
-    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 22pt;
+    -fx-font-family: "Share Tech Mono";
     -fx-text-fill: white;
     -fx-opacity: 0.6;
+    -fx-text-fill: 	#e5ffcc;
 }
 
 .label-bright {
-    -fx-font-size: 11pt;
-    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 20pt;
+    -fx-font-family: "Share Tech Mono";
     -fx-text-fill: white;
     -fx-opacity: 1;
+    -fx-text-fill: #d9ffb3;
 }
 
 .label-header {
     -fx-font-size: 32pt;
-    -fx-font-family: "Segoe UI Light";
+    -fx-font-family: "Share Tech Mono";
     -fx-text-fill: white;
     -fx-opacity: 1;
+    -fx-text-fill: #e5ffcc;
 }
 
 .table-view {
@@ -50,7 +57,7 @@
 
 .table-view .column-header .label {
     -fx-font-size: 20pt;
-    -fx-font-family: "Segoe UI Light";
+    -fx-font-family: "Share Tech Mono";
     -fx-text-fill: white;
     -fx-alignment: center-left;
     -fx-opacity: 1;
@@ -79,7 +86,7 @@
 
 .menu-bar .label {
     -fx-font-size: 14pt;
-    -fx-font-family: "Segoe UI Light";
+    -fx-font-family: "Share Tech Mono";
     -fx-text-fill: white;
     -fx-opacity: 0.9;
 }
@@ -90,7 +97,7 @@
 
 .text-field {
     -fx-font-size: 12pt;
-    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-family: "Share Tech Mono";
 }
 
 /* 
@@ -100,13 +107,13 @@
  */
 .button {
     -fx-padding: 5 22 5 22;   
-    -fx-border-color: #e2e2e2;
+    -fx-border-color: #193300;
     -fx-border-width: 2;
     -fx-background-radius: 0;
-    -fx-background-color: #1d1d1d;
-    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-background-color: #0d1a00;
+    -fx-font-family: "Share Tech Mono", Helvetica, Arial, sans-serif;
     -fx-font-size: 11pt;
-    -fx-text-fill: #d8d8d8;
+    -fx-text-fill: #e5ffcc;
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
 }
 

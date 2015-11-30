@@ -77,6 +77,7 @@ public class MainApp extends Application {
 
         // Set the application icon.
         this.primaryStage.getIcons().add(new Image("file:resources/images/1447460862_Address_Book.png"));
+        
 
         initRootLayout();
 
@@ -98,7 +99,7 @@ public class MainApp extends Application {
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
-
+            scene.getStylesheets().add("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
             // Give the controller access to the main app.
             RootLayoutController controller = loader.getController();
             controller.setMainApp(this);
