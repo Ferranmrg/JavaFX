@@ -1,3 +1,8 @@
+.root{
+	-fx-accent: #009900;
+	-fx-focus-color: #009900;
+	
+}
 .background {
     -fx-background-image: url("fondo.jpg");
     -fx-background-repeat: stretch;
@@ -32,6 +37,8 @@
 
 .table-view {
     -fx-base: #1d1d1d;
+    -fx-font-size: 16pt;
+    -fx-font-family: "Share Tech Mono";
     -fx-control-inner-background: #1d1d1d;
     -fx-background-color: #1d1d1d;
     -fx-table-cell-border-color: transparent;
@@ -64,7 +71,7 @@
 }
 
 .table-view:focused .table-row-cell:filled:focused:selected {
-    -fx-background-color: -fx-focus-color;
+    -fx-background-color: #006600;
 }
 
 .split-pane:horizontal > .split-pane-divider {
@@ -118,7 +125,7 @@
 }
 
 .button:hover {
-    -fx-background-color: #3a3a3a;
+    -fx-background-color: #009900;
 }
 
 .button:pressed, .button:default:hover:pressed {
